@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 const api = {
-  key: "456c9ed2b0ee017bc5caf5bcb34554f1",
-  baseUrl: "https://api.openweathermap.org/data/2.5/weather?",
+  key: import.meta.env.VITE_API_KEY, // Accessing environment variable
+  baseUrl: import.meta.env.VITE_API_URL,
 };
 
 // eslint-disable-next-line react/prop-types
