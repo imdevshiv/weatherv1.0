@@ -18,7 +18,7 @@ const Button = (props) => {
       </button>
 
       {place && <Featch area={place} update={props.update} />}
-      {/* Only render Featch when place is set */}
+      {/* Only render Fetch when place is set */}
     </div>
   );
 };

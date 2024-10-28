@@ -18,7 +18,7 @@ const Home = () => {
       setWeather({});
       setError("City not found or invalid input");
     }
-    console.log(data);
+    // console.log(data);
   };
 
   return (
